@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hsla(0, 0%, 100%, 0.527);
+    font-size: 30px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.menu a {
+    color: white;
+}
+
+
+

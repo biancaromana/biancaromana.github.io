@@ -13,7 +13,7 @@
         <title>Portfolio - Bianca Romana</title>
     </head>
     <body>
-        <div>
+        <div id="home">
             <img src="images/background2.jpg" alt="Background" id="mainBackground">
         </div>
 
@@ -22,10 +22,19 @@
             <div class="logo">BRK</div>
 
             <ul class="menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="projects.html">PORTFOLIO</a></li>
-                <li><a href="skills.html">SKILLS</a></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+
+                <div class="dropdown">
+                    <li><a href="#portfolio">PORTFOLIO &#9661;</a></li>
+                        <div class="dropdown-content">
+                            <a href="#programming">PROGRAMMING</a>
+                            <a href="#animation">ANIMATION</a>
+                            <a href="#video">VIDEO</a>
+                        </div>
+                </div>
+
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -38,7 +47,7 @@
 
         <main>
             <section class="intro">
-                <h2>Hello!</h2><br>
+                <h2 id="about">Hello!</h2><br>
                 <p>My name is <b>Bianca Romana Knülle</b> and I'm a media computer science student at the
                     <a title="https://www.hdm-stuttgart.de/" href="https://www.hdm-stuttgart.de/">Stuttgart Media University</a>, Germany.
                     After my apprenticeship as an audio-visual media designer, I rediscovered programming for myself. Since then I try
@@ -47,6 +56,10 @@
                     experience and acquiring new knowledge of media computer science. 
                 </p>
             </section>
+            <span class="port">
+                <h2>Portfolio</h2>
+
+            </span>
             <div>
 
             </div>

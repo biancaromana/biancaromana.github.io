@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
-/*navigation*/
+/*navigation menu*/
 .navigation { 
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,26 @@
     .navigation li {
         list-style: none;
         padding: 7px 20px;
+    }
+
+/*dropdown menu*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    }  
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    }
+      
+.dropdown:hover .dropdown-content a:hover {
+    color: hsl(208, 32%, 69%);
+    transition: 0.3s ease;
     }
 
 /*body*/

@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,12 +13,14 @@
     background-color: hsla(0, 0%, 16%, 0.492);
     font-size: 25px;
     color: white;
-
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
     .navigation .logo {
         padding-left: 15px;
-        color: hsl(279, 100%, 87%);
+        color: hsl(208, 32%, 69%);
     }
     .navigation a {
         text-decoration: none;
@@ -32,7 +33,7 @@
     }
 
     .navigation .menu li:hover {
-        background-color: hsla(279, 100%, 87%, 0.211);
+        background-color: hsla(208, 40%, 65%, 0.211);
         border-radius: 5px;
         transition: 0.3s ease;
     }

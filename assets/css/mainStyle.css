@@ -13,6 +13,7 @@
     padding: 10px;
     background-color: hsla(0, 0%, 16%, 0.492);
     font-size: 25px;
+    font-weight: bold;
     color: white;
     position: sticky;
     position: -webkit-sticky;
@@ -50,13 +51,15 @@
     position: absolute;
     min-width: 200px;
     z-index: 1;
+    background-color: hsla(0, 0%, 14%, 0.338);
     }  
 
 .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 20px;
+    gap: 20px;
+    padding: 7px;
+    padding-top: 20px;
     }
       
 .dropdown:hover .dropdown-content a:hover {

@@ -27,7 +27,7 @@ header {
     }
 
 /*About me*/
-main > section.intro {
+section.intro {
     margin-top: 70px;
     padding: 100px;
     padding-left: 10%;
@@ -42,9 +42,14 @@ main > section.intro {
         text-decoration: none;
         font-style: italic;
         color: white;
-
     }
 
-
-
+/*portfolio*/
+    span.port #portfolio {
+        font-size: 50px;
+        font-weight: 600;
+        color: hsl(208, 32%, 69%);
+        padding: 150px;
+        text-align: center;
+    }   
     

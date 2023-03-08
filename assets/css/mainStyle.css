@@ -5,6 +5,15 @@
     scroll-behavior: smooth;
 }
 
+p {
+    hyphens: auto;
+}
+
+a {
+    color: white;
+}
+
+
 /*navigation menu*/
 .navigation { 
     display: flex;
@@ -69,4 +78,5 @@
 /*body*/
 body {
     background-color: black;
+    color: white;
 }

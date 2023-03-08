@@ -13,6 +13,8 @@
         <title>Portfolio - Bianca Romana</title>
     </head>
     <body>
+        <script src="assets/js/script.js"></script>
+
         <div id="home">
             <img src="images/background.jpg" alt="Background" id="mainBackground">
         </div>
@@ -58,27 +60,71 @@
             </section>
 
             <!--Portfolio-->
-            <span class="port">
-                <!--Heading-->
-                <div id="portfolio">
-                    <h2><u>Portfolio</u></h2>
-                </div>
+            <div id="portfolio">
+                <h2><u>Portfolio</u></h2>
+            </div>
+
+            <!--Portfolio Content-->
+            <div class="content">
 
                 <!--Programs-->
-                <div id="program">
+                <h3 id="program">Program</h3>
+                <div class="programmContent">
+                    <div class="gameMaster">
+                        <img src="images/GameMaster/GameMaster-InGame.JPG" alt="GameMaster picture" class="gameMasterPic">
+                        <h4>GAME MASTER</h4>
+                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
+                            created with Java, LibGDX, Box2D and Kryonet. </p>
+                 
+
+
+                        <div class="dropdownInfo">
+                            <p onclick="moreInfos()" class="dropbtn">More information:</p>
+                            <div id="myDropdown" class="dropdown-con">
+                                <p>See project on my GitHub:</p>
+                                <p><a title="GitHub GameMaster" href="https://github.com/biancaromana/GameMaster">https://github.com/biancaromana/GameMaster</a></p>
+               
+                            </div>
+                        </div>
+                        
+                        
+                    <!--Placeholder-->
+                    </div>
+                    <div class="placeholder">
+                        <img src="images/GameMaster/GameMaster-InGame.JPG" alt="GameMaster picture" class="placeholderPic">
+                        <h4>GAME MASTER</h4>
+                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
+                            created with Java, LibGDX, Box2D and Kryonet. </p>
+                        <p class="moreInfo">More information:</p>
+                    </div>
+                    <div class="placeholder">
+                        <img src="images/GameMaster/GameMaster-InGame.JPG" alt="GameMaster picture" class="placeholderPic">
+                        <h4>GAME MASTER</h4>
+                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
+                            created with Java, LibGDX, Box2D and Kryonet. </p>
+                        <p class="moreInfo">More information:</p>
+                    </div>
 
                 </div>
 
                 <!--Animation-->
-                <div id="animation">
-
+                <h3 id="animation">Animation</h3>
+                <div class="animationContent">
+                    <div>
+                        <img>
+                        <h4></h4>
+                        <p></p>
+                        <p></p>
+                    </div>
                 </div>
 
                 <!--Video-->
+                <h3>Video</h3>
                 <div id="video">
 
                 </div>
-            </span>
+            </div>
+
         </main>
 
         <!--Contact-->
@@ -87,16 +133,16 @@
                 <h2><u>Contact</u></h2><br>
                 <div class="flex">
                     <span class="email">
-                        <img src="images/email-logo-black.png" alt="Logo email" class="emailLogo">
+                        <img src="images/logos/email-logo-white.png" alt="Logo email" class="emailLogo">
                         <a title="Send email" href="mailto:biancaknuelle@hotmail.de?">biancaknuelle@hotmail.de</a>
                     </span>
                     <span class="social">
                         <p>Social</p>
                         <a title="GitHub" href="https://github.com/biancaromana">
-                            <img src="images/gitHub-logo-black.png" onmouseleave="src='images/gitHub-logo-black.png'" onmouseover="src='images/gitHub-logo-blue.png'" alt="Logo gitHub" class="gitHubLogo">
+                            <img src="images/logos/gitHub-logo-white.png" onmouseleave="src='images/logos/gitHub-logo-white.png'" onmouseover="src='images/logos/gitHub-logo-blue.png'" alt="Logo gitHub" class="gitHubLogo">
                         </a>
                         <a title="LinkedIn" href="https://www.linkedin.com/in/bianca-romana-kn%C3%BClle-287742237/">
-                            <img src="images/linkedIn-logo-black.png" onmouseleave="src='images/linkedIn-logo-black.png'" onmouseover="src='images/linkedIn-logo-blue.png'" alt="Logo linkedIn" class="linkedInLogo">
+                            <img src="images/logos/linkedIn-logo-white.png" onmouseleave="src='images/logos/linkedIn-logo-white.png'" onmouseover="src='images/logos/linkedIn-logo-blue.png'" alt="Logo linkedIn" class="linkedInLogo">
                         </a>
                     </span>
                 </div>

@@ -47,27 +47,122 @@ section#about {
     }
 
 /*portfolio*/
-    span.port #portfolio {
+    #portfolio {
         font-size: 50px;
         font-weight: 600;
         color: hsl(208, 32%, 69%);
         padding: 150px;
         text-align: center;
+        background-color: hsla(0, 0%, 16%, 0.492);
     }   
     
+    .content {
+        padding: 100px;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 45px;
+    }
+
+    .content > h3 {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .content .programmContent {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px; 
+        gap: 35px;
+    }
+
+    .programmContent p {
+        font-size: 20px;
+        line-height: 40px;
+        text-align: justify;
+    }
+
+    .programmContent h4 {
+        padding-top: 30px; 
+        padding-bottom: 20px; 
+    }
+
+    .dropbtn {
+        padding-top: 20px;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .dropbtn:hover {
+        color: hsl(208, 32%, 69%);
+        transition: 0.3s ease;
+    }
+
+    .dropdown-con {
+        display: none;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;   
+    }
+
+    .dropdownInfo a {
+        text-decoration-style: dotted;
+    }
+
+    .dropdownInfo a:hover {
+        color: hsl(208, 32%, 69%);
+        transition: 0.3s ease;
+    }
 
 
+ 
+/*GameMaster*/
+.gameMaster {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: hsla(0, 0%, 16%, 0.492);
+}
+    .gameMaster .gameMasterPic {
+        max-width: 94%;
+        border: 15px solid black;
+        
+    }   
+    
+    .placeholder {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        background-color: hsla(0, 0%, 16%, 0.492);
+        opacity: 0;
+    }    
 
+    .placeholder .placeholderPic {
+        width: 94%;
+        border: 15px solid black;
+    }   
+
+
+/*Animation*/
+#animation {
+    margin-top: 100px;
+}
 
     
 /*Contact*/
 footer {
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 0%);
 }
 
     footer #contact {
-        margin-top: 70px;
         padding: 80px;
+        padding-top: 70px;
         padding-left: 10%;
         padding-right: 10%;
         font-size: 30px;
@@ -97,7 +192,7 @@ footer {
 
     footer .email > a {
         text-decoration-style: dotted;
-        color: black;
+        color: white;
     }
 
     footer .email > a:hover {
@@ -125,12 +220,10 @@ footer {
         margin-left: 10px;
     }
 
-
     footer .copy {
         text-align: center;
         vertical-align: bottom;
         padding: 20px;
-        background-color: hsl(208, 32%, 69%);
-        color: white;
+        background-color: hsla(0, 0%, 16%, 0.492);
         font-size: 20px;
     }

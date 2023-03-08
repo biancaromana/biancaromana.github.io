@@ -13,6 +13,7 @@
 header {
     text-align: center;
     padding: 330px;
+    color: white;
 }
 
     header > h1 {
@@ -27,18 +28,19 @@ header {
     }
 
 /*About me*/
-section.intro {
+section#about {
     margin-top: 70px;
     padding: 100px;
     padding-left: 10%;
     padding-right: 10%;
     background-color: hsl(208, 32%, 69%);
+    color: white;
     font-size: 30px;
     text-align: justify;
     line-height: 45px;
-    /*(280, 32%, 69%) hsl(208, 32%, 69%)*/
 }
-    section.intro > p > a {
+
+    section#about > p > a {
         text-decoration: none;
         font-style: italic;
         color: white;
@@ -53,3 +55,82 @@ section.intro {
         text-align: center;
     }   
     
+
+
+
+
+    
+/*Contact*/
+footer {
+    background-color: hsl(0, 0%, 100%);
+}
+
+    footer #contact {
+        margin-top: 70px;
+        padding: 80px;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 30px;
+        text-align: justify;
+        line-height: 45px;
+    }
+
+    footer #contact > h2 {
+         color: hsl(208, 32%, 69%);
+    }
+
+    footer .flex {
+        display: flex;
+        gap: 500px;
+    }
+
+    footer .email {
+        display: flex;
+        gap: 40px;
+    }
+
+    footer .emailLogo {
+        width: 42px;
+        height: 30px;
+        margin-top: 7px;
+    }
+
+    footer .email > a {
+        text-decoration-style: dotted;
+        color: black;
+    }
+
+    footer .email > a:hover {
+        color: hsl(208, 32%, 69%);
+    }
+
+    footer .social {
+        display: flex;
+    }
+
+    footer .social > p{
+        font-weight: bold;
+    }
+
+    footer .gitHubLogo {
+        width: 47px;
+        height: 47px;
+        margin-left: 30px;
+    }
+
+    footer .linkedInLogo {
+        width: 40px;
+        height: 40px;
+        margin-top: 2px;
+        margin-left: 10px;
+    }
+
+
+    footer .copy {
+        text-align: center;
+        vertical-align: bottom;
+        padding: 20px;
+        background-color: hsl(208, 32%, 69%);
+        color: white;
+        font-size: 20px;
+    }

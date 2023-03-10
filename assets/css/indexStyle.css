@@ -1,121 +1,121 @@
 /*Background picture*/
 #mainBackground {
     position: fixed;
-    z-index: -1;
     min-width: 100%;
     max-height: 100%;
+    z-index: -1;
     background-size: contain;
-    opacity: 40%;
     background-repeat: no-repeat;
+    opacity: 40%;
 }
 
-/*Main page header*/
+
+/*Header*/
 header {
-    text-align: center;
     padding: 330px;
-    color: white;
+    text-align: center;
 }
 
     header > h1 {
+        color: hsl(208, 32%, 69%);
         font-size: 90px;
         font-weight: 600;
-        color: hsl(208, 32%, 69%);
     }
 
     header > p {
-        font-size: 40px;
         padding: 20px;
+        font-size: 40px;
     }
+
 
 /*About me*/
 section#about {
     margin-top: 70px;
     padding: 100px;
-    padding-left: 10%;
     padding-right: 10%;
+    padding-left: 10%;
     background-color: hsl(208, 32%, 69%);
-    color: white;
-    font-size: 30px;
     text-align: justify;
+    font-size: 30px;
     line-height: 45px;
 }
 
     section#about > p > a {
         text-decoration: none;
         font-style: italic;
-        color: white;
     }
 
-/*portfolio*/
-    #portfolio {
+
+/*Portfolio*/
+    section.portfolio .port-heading{
+        padding: 150px;
+        color: hsl(208, 32%, 69%);
+        background-color: hsla(0, 0%, 16%, 0.492);
+        text-align: center;
         font-size: 50px;
         font-weight: 600;
-        color: hsl(208, 32%, 69%);
-        padding: 150px;
-        text-align: center;
-        background-color: hsla(0, 0%, 16%, 0.492);
     }   
     
-    .content {
+    section.portfolio .port-content {
         padding: 100px;
-        padding-left: 10%;
         padding-right: 10%;
-        font-size: 30px;
+        padding-left: 10%;
         text-align: justify;
+        font-size: 30px;
         line-height: 45px;
     }
 
-    .content > h3 {
-        color: white;
+    section.portfolio .port-content > h3 {
         text-decoration: underline;
     }
 
-    .content .programmContent {
+    section.portfolio .port-content .program-content {
         display: flex;
         justify-content: space-between;
         margin-top: 40px; 
         gap: 35px;
     }
 
-    .programmContent p {
+    section.portfolio .program-content p {
         font-size: 20px;
         line-height: 40px;
         text-align: justify;
     }
 
-    .programmContent h4 {
+    section.portfolio .program-content h4 {
         padding-top: 30px; 
         padding-bottom: 20px; 
+        color: hsl(208, 32%, 69%);
     }
 
-    .dropbtn {
+    section.portfolio .dropbtn {
         padding-top: 20px;
         text-decoration: underline;
         cursor: pointer;
     }
 
-    .dropbtn:hover {
+    section.portfolio .dropbtn:hover {
         color: hsl(208, 32%, 69%);
         transition: 0.3s ease;
     }
 
-    .dropdown-con {
+    section.portfolio .dropdown-con {
         display: none;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
 
-    .show {
+    section.portfolio .show {
         display: flex;
         flex-direction: column;   
     }
 
-    .dropdownInfo a {
+    section.portfolio .dropdownInfo a {
         text-decoration-style: dotted;
     }
 
-    .dropdownInfo a:hover {
+    section.portfolio .dropdownInfo a:hover {
         color: hsl(208, 32%, 69%);
         transition: 0.3s ease;
     }

@@ -5,6 +5,11 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 p {
     hyphens: auto;
 }
@@ -14,69 +19,71 @@ a {
 }
 
 
-/*navigation menu*/
-.navigation { 
+/*Navigation bar*/
+.nav { 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsla(0, 0%, 16%, 0.492);
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    z-index: 1;
+    color: white;
+    background-color: hsla(0, 0%, 16%, 0.492);
+    font-size: 25px;
+    font-weight: bold;
 }
 
-    .navigation .logo {
+    .nav .logo {
         padding-left: 15px;
         color: hsl(208, 32%, 69%);
     }
-    .navigation a {
-        text-decoration: none;
-        color: white;
-    }
     
-    .navigation .menu {
+    .nav .menu {
         display: flex;
         justify-content: flex-end;
     }
 
-    .navigation .menu li:hover {
+    .nav a {
+        text-decoration: none;
+    }
+
+    .nav li {
+        padding: 15px 20px;
+        list-style: none;
+    }
+
+    .nav .port {
+        line-height: 5%;
+    }
+
+    .nav .menu li:hover {
         background-color: hsla(208, 40%, 65%, 0.211);
         transition: 0.3s ease;
     }
 
-    .navigation li {
-        list-style: none;
-        padding: 15px 20px;
-    }
-
-/*dropdown menu*/
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 194px;
-    min-height: 145px;
-    z-index: 1;
-    background-color: hsla(0, 0%, 14%, 0.338);
+    
+    /*Dropdown menu*/
+    .nav .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 194px;
+        min-height: 145px;
+        z-index: 1;
+        background-color: hsla(0, 0%, 14%, 0.338);
     }  
 
-.dropdown:hover .dropdown-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 21px;
-    padding-top: 20px;
+    .nav .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 21px;
+        padding-top: 20px;
+        gap: 20px;
+        z-index: 1;
     }
       
-.dropdown:hover .dropdown-content a:hover {
-    color: hsl(208, 32%, 69%);
-    transition: 0.3s ease;
+    .nav .dropdown:hover .dropdown-content a:hover {
+        z-index: 1;
+        color: hsl(208, 32%, 69%);
+        transition: 0.3s ease;
     }
-
-/*body*/
-body {
-    background-color: black;
-    color: white;
-}

@@ -15,12 +15,13 @@
     <body>
         <script src="assets/js/script.js"></script>
 
+        <!--Background picture bubbles-->
         <div id="home">
             <img src="images/background.jpg" alt="Background" id="mainBackground">
         </div>
 
         <!--Navigation bar-->
-        <nav class="navigation">
+        <nav class="nav">
             <div class="logo">BRK</div>
 
             <ul class="menu">
@@ -28,7 +29,7 @@
                 <li><a href="#about">ABOUT ME</a></li>
 
                 <div class="dropdown">
-                    <li><a href="#portfolio">PORTFOLIO &#9661;</a></li>
+                    <li><a class="port" href="#portfolio">PORTFOLIO &#9661;</a></li>
                         <div class="dropdown-content">
                             <a href="#program">PROGRAM</a>
                             <a href="#animation">ANIMATION</a>
@@ -47,11 +48,12 @@
         </header>
 
         <main>
+
             <!--About me-->
             <section id="about">
                 <h2>Hello!</h2><br>
                 <p>My name is <b>Bianca Romana Knülle</b> and I'm a media computer science student at the
-                    <a title="https://www.hdm-stuttgart.de/" href="https://www.hdm-stuttgart.de/">Stuttgart Media University</a>, Germany.
+                    <a title="https://www.hdm-stuttgart.de/" href="https://www.hdm-stuttgart.de/" class="hdm">Stuttgart Media University</a>, Germany.
                     After my apprenticeship as an audio-visual media designer, I rediscovered programming for myself. Since then I try
                     to educate myself in all areas of computer science, with special interest in game development, animation and graphic 
                     design. <br>I would describe myself as a creative, determined and curious person. In the future, I look forward to gaining
@@ -60,16 +62,19 @@
             </section>
 
             <!--Portfolio-->
-            <div id="portfolio">
+            <section id="portfolio" class="portfolio">
+
+            <!--Portfolio heading-->
+            <div class="port-heading">
                 <h2><u>Portfolio</u></h2>
             </div>
 
-            <!--Portfolio Content-->
-            <div class="content">
+            <!--Portfolio content-->
+            <div class="port-content">
 
                 <!--Programs-->
                 <h3 id="program">Program</h3>
-                <div class="programmContent">
+                <div class="program-content">
                     <div class="gameMaster">
                         <img src="images/GameMaster/GameMaster-InGame.JPG" alt="GameMaster picture" class="gameMasterPic">
                         <h4>GAME MASTER</h4>
@@ -124,6 +129,7 @@
 
                 </div>
             </div>
+            </section>
 
         </main>
 

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*Dropdown menu: More information*/
+=======
+/*Dropdown menu: More information
+>>>>>>> main
 function dropInfo() {
     document.getElementById("info-dropdown").classList.toggle("show");
 }
@@ -14,4 +18,4 @@ function dropInfo() {
                 }
             }
         }
-    }
+    }*/

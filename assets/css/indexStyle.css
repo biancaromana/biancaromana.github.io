@@ -76,6 +76,10 @@ section#about {
             padding-bottom: 20px; 
             color: hsl(208, 32%, 69%);
             font-size: 30px;
+<<<<<<< HEAD
+=======
+            text-align: left;
+>>>>>>> main
         }
 
         section.portfolio > .port-content p {
@@ -88,6 +92,7 @@ section#about {
         section.portfolio .drop-trigger {
             padding-top: 20px;
             text-decoration: underline;
+<<<<<<< HEAD
             cursor: pointer;
         }
     
@@ -98,12 +103,28 @@ section#about {
     
         section.portfolio .dropdown-content {
             display: none;
+=======
+            /*cursor: pointer;*/
+        }
+    
+        /*section.portfolio .drop-trigger:hover {
+            color: hsl(208, 32%, 69%);
+            transition: 0.3s ease;
+        }*/
+    
+        /*section.portfolio .dropdown-content {
+            display: none; 
+>>>>>>> main
         }
     
         section.portfolio .show {
             display: flex;
             flex-direction: column;   
+<<<<<<< HEAD
         }
+=======
+        }*/
+>>>>>>> main
     
         section.portfolio .dropdown-info a {
             text-decoration-style: dotted;
@@ -113,6 +134,7 @@ section#about {
             color: hsl(208, 32%, 69%);
             transition: 0.3s ease;
         }
+<<<<<<< HEAD
 
         /*Portfolio program-content*/
         section.portfolio .program-content {
@@ -150,10 +172,50 @@ section#about {
                 }   
 
 
+=======
+
+
+        /*Portfolio content-box*/
+        section.portfolio .content-box {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            width: 600px;
+            background-color: hsla(0, 0%, 16%, 0.492);
+        }
+
+            section.portfolio .content-box .content-picture {
+                border: 15px solid black;
+                max-width: 94%;
+            }   
+
+            section.portfolio #visible {
+                opacity: 0%;
+            }
+            
+        
+        /*Portfolio content*/
+        section.portfolio .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px; 
+            gap: 35px;
+        }
+
+        
+>>>>>>> main
         /*Portfolio animation-content*/
         section.portfolio #animation {
             margin-top: 100px;
         }
+<<<<<<< HEAD
+=======
+
+        /*Portfolio video-content*/        
+        section.portfolio #video {
+            margin-top: 100px;
+        }
+>>>>>>> main
 
     
 /*Contact*/

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-with, initial-scale=1.8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Bianca">
         <meta name="keywords" content="Portfolio, Projects">
         <meta name="description" lang="en" content="Portfolio">
@@ -31,9 +31,9 @@
                 <div class="dropdown">
                     <li><a class="port" href="#portfolio">PORTFOLIO &#9661;</a></li>
                         <div class="dropdown-content">
-                            <a href="#program">PROGRAM</a>
-                            <a href="#animation">ANIMATION</a>
-                            <a href="#video">VIDEO</a>
+                            <a href="#games">GAMES</a>
+                            <a href="#animation">ANIMATIONS</a>
+                            <a href="#video">VIDEOS</a>
                         </div>
                 </div>
 
@@ -73,66 +73,167 @@
             <div class="port-content">
 
                 <!--Programs-->
-                <h3 id="program">Program</h3>
-                <div class="program-content">
-                    <div class="gameMaster">
-                        <img src="images/GameMaster/GameMaster-InGame.JPG" alt="GameMaster picture" class="gamemaster-picture">
+                <h3 id="games">Games</h3>
+                <div class="content">
+
+                    <!--GameMaster-->
+                    <div class="content-box">
+                        <img src="images/program/GameMaster-InGame.png" alt="GameMaster picture" class="content-picture">
                         <h4>GAME MASTER</h4>
-                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
+                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, where three players have to win against one Game Master 
+                            by fighting enemys. The Game Master must eliminate all players through spawning enemys. The game was 
                             created with Java, LibGDX, Box2D and Kryonet. </p>
                  
+                        <div class="dropdown-info">
+                            <p onclick="dropInfo()" class="drop-trigger">More information:</p>
+                            <div id="info-dropdown" class="dropdown-content">
+                                <p>See project on my GitHub:</p>
+                                <p><a title="GitHub GameMaster" href="https://github.com/biancaromana/GameMaster">
+                                    https://github.com/biancaromana/<br>GameMaster</a></p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!--Project Massive-->
+                    <div class="content-box">
+                        <img src="images/program/black.png" alt="Project Massive picture" class="content-picture">
+                        <h4>PROJECT MASSIVE</h4>
+                        <p>Project Massive is a third person open playground world with obstacles and persistent moveable objects
+                            for the players to interact with them. Players can show character-emotes and chat via textbubbles. This 
+                            game will be created in Unreal Engine 5 with C++ and Docker network.
+                             </p>
+                 
+                        <div class="dropdown-info">
+                            <p onclick="dropInfo()" class="drop-trigger">More information:</p>
+                            <div id="info-dropdown" class="dropdown-content">
+                                <p>in progress</p>
+                                <p><a title="GitHub Project Massive" href="">
+                                    </a></p>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <!--Placeholder-->
+                    <div class="content-box" id="visible">
+                        <img src="" alt="" class="">
+                        <h4>PROJECT MASSIVE</h4>
+                        <p>
+                             </p>
 
                         <div class="dropdown-info">
                             <p onclick="dropInfo()" class="drop-trigger">More information:</p>
                             <div id="info-dropdown" class="dropdown-content">
                                 <p>See project on my GitHub:</p>
-                                <p><a title="GitHub GameMaster" href="https://github.com/biancaromana/GameMaster">https://github.com/biancaromana/GameMaster</a></p>
-               
+                                <p><a title="GitHub GameMaster" href="https://github.com/biancaromana/GameMaster">
+                                   <br></a></p>
                             </div>
                         </div>
-                        
-
-
-                        
-                    <!--Placeholder 1-->
-                    </div>
-                    <div class="placeholder">
-                        <img src="images/GameMaster/GameMaster-InGame.JPG" alt="GameMaster picture" class="placeholderPic">
-                        <h4>GAME MASTER</h4>
-                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
-                            created with Java, LibGDX, Box2D and Kryonet. </p>
-                        <p class="moreInfo">More information:</p>
-                    </div>
-
-                    <!--Placeholder 2-->
-                    <div class="placeholder">
-                        <img src="images/GameMaster/GameMaster-InGame.JPG" alt="GameMaster picture" class="placeholderPic">
-                        <h4>GAME MASTER</h4>
-                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
-                            created with Java, LibGDX, Box2D and Kryonet. </p>
-                        <p class="moreInfo">More information:</p>
                     </div>
                 </div>
 
 
                 
+
+
                 <!--Animation-->
-                <h3 id="animation">Animation</h3>
-                <div class="animation-content">
-                    <div>
-                        <img>
-                        <h4></h4>
-                        <p></p>
-                        <p></p>
+                <h3 id="animation">Animations</h3>
+                <div class="content">
+
+                    <!--The Magic Flute-->
+                    <div class="content-box">
+                        <img src="images/animation/animation-magicflute.png" alt="Magic Flute animation" class="content-picture">
+                        <h4>MAGIC FLUTE ANIMATION</h4>
+                        <p>An animation created with Adobe After Effects as part of the Stuttgart Opera's performance of "The Magic Flute on the Wasen".
+                        </p>
+                 
+                        <div class="dropdown-info">
+                            <p onclick="dropInfo()" class="drop-trigger">More information:</p>
+                            <div id="info-dropdown" class="dropdown-content">
+                                <p>Watch a small clip of my animation on YouTube (from minute 0:19):</p>
+                                <p><a title="YouTube Magic Flute Animation" href="https://www.youtube.com/watch?v=pSzOGSzIN_4&t=4s">
+                                    https://www.youtube.com/watch?v=pSzOGSzIN_4&t=4s</a></p>
+                                <p><br>Positive feedback: <br> <i>"...Die Videoanimation von Bianca Knülle hinterließ hier den besten Eindruck. Es mangelte nicht an zündender Spontaneität..."</i>
+                                    <br> - <a title="" href="https://onlinemerker.com/stuttgart-cannstatter-kulturwasen-die-zauberfloete/">
+                                        Online Merker</a></p>
+                            </div>
+                        </div>
                     </div>
+                                    <!--Placeholder 1-->
+                                    <div class="content-box" id="visible">
+                                        <img src="images/program/black.png" alt="" class="content-picture">
+                                        <h4>GAME MASTER</h4>
+                                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
+                                            created with Java, LibGDX, Box2D and Kryonet. </p>
+                                        <p class="moreInfo">More information:</p>
+                                    </div>
+                
+                                    <!--Placeholder 2-->
+                                    <div class="content-box" id="visible">
+                                        <img src="images/program/black.png" alt="" class="content-picture">
+                                        <h4>GAME MASTER</h4>
+                                        <p>GameMaster is a Bullet-hell arena multiplayer pixel-art game, 
+                                            created with Java, LibGDX, Box2D and Kryonet. </p>
+                                        <p class="moreInfo">More information:</p>
+                                    </div>
                 </div>
+
+
+
+
 
                 <!--Video-->
-                <h3>Video</h3>
-                <div id="video">
+                <h3 id="video">Videos</h3>
+                <div class="content">
 
-                </div>
+                    <!--Trailer Don Carlos-->
+                    <div class="content-box">
+                        <img src="images/videos/doncarlos.png" alt="Picture: trailer Don Carlos" class="content-picture">
+                        <h4>TRAILER: "DON CARLOS"</h4>
+                        <p>A trailer produced for the opera "Don Carlos" in Stuttgart with Final Cut Pro.</p>
+                        <div class="dropdown-info">
+                            <p onclick="dropInfo()" class="drop-trigger">More information:</p>
+                            <div id="info-dropdown" class="dropdown-content">
+                                <p>Watch my trailer on YouTube:</p>
+                                <p><a title="YouTube Trailer Don Carlos" href="https://www.youtube.com/watch?v=WT6p5s2Mgv4">
+                                    https://www.youtube.com/watch?v=WT6p5s2Mgv4</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Trailer "Schuberts Winterreise"-->
+                    <div class="content-box">
+                        <img src="images/videos/schubertswinterreise.png" alt="Picture: trailer Schuberts Winterreise" class="content-picture">
+                        <h4 text-align="left">TRAILER: SCHUBERTS "WINTERREISE"</h4>
+                        <p>A trailer produced for the opera Schuberts "Winterreise" in Stuttgart with Final Cut Pro.</p>
+                        <div class="dropdown-info">
+                            <p onclick="dropInfo()" class="drop-trigger">More information:</p>
+                            <div id="info-dropdown" class="dropdown-content">
+                                <p>Watch my trailer on YouTube:</p>
+                                <p><a title="YouTube Trailer Schuberts Winterreise" href="https://www.youtube.com/watch?v=Gwneu7HTGcI">
+                                    https://www.youtube.com/watch?v=Gwneu7HTGcI</a></p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!--Vlog "Liebe zu den 3 Orangen"-->
+                    <div class="content-box">
+                        <img src="images/videos/dieliebezu3orangen.png" alt="Picture: Vlog Die Liebe zu 3 Orangen" class="content-picture">
+                        <h4 text-align="left">VLOG: "DIE LIEBE ZU 3 ORANGEN"</h4>
+                        <p>This vlog is a 4 part video series about the opera production "The Love for 3 Oranges" in Stuttgart. </p>
+                        <div class="dropdown-info">
+                            <p onclick="dropInfo()" class="drop-trigger">More information:</p>
+                            <div id="info-dropdown" class="dropdown-content">
+                                <p>Watch the four episodes on the website of the Stuttgart opera:</p>
+                                <p><a title="Vlog Die Liebe zu 3 Orangen" href="https://www.staatsoper-stuttgart.de/magazin/orangen-vlogs/">
+                                    https://www.staatsoper-stuttgart.de/magazin/orangen-vlogs/</a></p>
+                            </div>
+                        </div>
+                    </div>      
+                </div>                 
+
+        
+
+                
             </div>
             </section>
         </main>

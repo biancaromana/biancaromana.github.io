@@ -38,6 +38,7 @@ section#about {
     text-align: justify;
     font-size: 30px;
     line-height: 45px;
+    max-width: 100%;
 }
 
     section#about > p > a {
@@ -121,18 +122,16 @@ section#about {
             display: flex;
             flex-direction: column;
             padding: 30px;
-            width: 600px;
+            min-width: 450px;
+            width: 450px;
             background-color: hsla(0, 0%, 16%, 0.492);
         }
 
             section.portfolio .content-box .content-picture {
                 border: 15px solid black;
-                max-width: 94%;
+                width: 94%;
             }   
 
-            section.portfolio #visible {
-                opacity: 0%;
-            }
             
         
         /*Portfolio content*/

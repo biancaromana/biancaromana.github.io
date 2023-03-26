@@ -38,7 +38,7 @@ section#about {
     text-align: justify;
     font-size: 30px;
     line-height: 45px;
-    max-width: 100%;
+    width: fit-content;
 }
 
     section#about > p > a {

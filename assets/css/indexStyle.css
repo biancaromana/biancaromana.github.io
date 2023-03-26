@@ -121,8 +121,8 @@ section#about {
             display: flex;
             flex-direction: column;
             padding: 30px;
-            min-width: 450px;
-            width: 450px;
+            min-width: 400px;
+            width: 400px;
             background-color: hsla(0, 0%, 16%, 0.492);
         }
 

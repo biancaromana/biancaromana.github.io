@@ -8,7 +8,7 @@
 body {
     background-color: black;
     color: white;
-    width: fit-content;
+    width: auto;
 }
 
 p {
@@ -34,6 +34,7 @@ a {
     background-color: hsla(0, 0%, 16%, 0.492);
     font-size: 25px;
     font-weight: bold;
+    width: auto;
 }
 
     .nav .logo {

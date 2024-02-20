@@ -76,7 +76,10 @@ section#about {
             padding-bottom: 20px; 
             color: hsl(208, 32%, 69%);
             font-size: 30px;
+<<<<<<< HEAD
+=======
             text-align: left;
+>>>>>>> main
         }
 
         section.portfolio > .port-content p {
@@ -89,6 +92,18 @@ section#about {
         section.portfolio .drop-trigger {
             padding-top: 20px;
             text-decoration: underline;
+<<<<<<< HEAD
+            cursor: pointer;
+        }
+    
+        section.portfolio .drop-trigger:hover {
+            color: hsl(208, 32%, 69%);
+            transition: 0.3s ease;
+        }
+    
+        section.portfolio .dropdown-content {
+            display: none;
+=======
             /*cursor: pointer;*/
         }
     
@@ -99,12 +114,17 @@ section#about {
     
         /*section.portfolio .dropdown-content {
             display: none; 
+>>>>>>> main
         }
     
         section.portfolio .show {
             display: flex;
             flex-direction: column;   
+<<<<<<< HEAD
+        }
+=======
         }*/
+>>>>>>> main
     
         section.portfolio .dropdown-info a {
             text-decoration-style: dotted;
@@ -114,6 +134,45 @@ section#about {
             color: hsl(208, 32%, 69%);
             transition: 0.3s ease;
         }
+<<<<<<< HEAD
+
+        /*Portfolio program-content*/
+        section.portfolio .program-content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px; 
+            gap: 35px;
+        }
+
+            /*Portfolio program-content: GameMaster*/
+            section.portfolio .gameMaster {
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                background-color: hsla(0, 0%, 16%, 0.492);
+            }
+
+                section.portfolio .gameMaster .gamemaster-picture {
+                    border: 15px solid black;
+                    max-width: 94%;
+                }   
+            
+            /*Portfolio program-content: Placeholder*/
+            section.portfolio .placeholder {
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+                background-color: hsla(0, 0%, 16%, 0.492);
+                opacity: 0;
+            }    
+
+                section.portfolio .placeholder .placeholderPic {
+                    border: 15px solid black;
+                    width: 94%;
+                }   
+
+
+=======
 
 
         /*Portfolio content-box*/
@@ -142,15 +201,19 @@ section#about {
         }
 
         
+>>>>>>> main
         /*Portfolio animation-content*/
         section.portfolio #animation {
             margin-top: 100px;
         }
+<<<<<<< HEAD
+=======
 
         /*Portfolio video-content*/        
         section.portfolio #video {
             margin-top: 100px;
         }
+>>>>>>> main
 
     
 /*Contact*/
